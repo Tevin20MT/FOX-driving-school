@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="tire" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#343b44"/>
+      <stop offset=".5" stop-color="#11151b"/>
+      <stop offset="1" stop-color="#3e4650"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#f8fafc"/>
+      <stop offset=".48" stop-color="#929ba6"/>
+      <stop offset=".72" stop-color="#e0e5e9"/>
+      <stop offset="1" stop-color="#69737e"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="31" fill="url(#tire)" stroke="#59616b" stroke-width="2"/>
+  <circle cx="32" cy="32" r="24" fill="#222a34" stroke="#adb5bf" stroke-width="1.5"/>
+  <g fill="url(#metal)" stroke="#f4f6f8" stroke-width=".7">
+    <path d="M29.5 29 27 11.5q5-2 10 0L34.5 29 32 32Z"/>
+    <path d="M29.5 29 27 11.5q5-2 10 0L34.5 29 32 32Z" transform="rotate(72 32 32)"/>
+    <path d="M29.5 29 27 11.5q5-2 10 0L34.5 29 32 32Z" transform="rotate(144 32 32)"/>
+    <path d="M29.5 29 27 11.5q5-2 10 0L34.5 29 32 32Z" transform="rotate(216 32 32)"/>
+    <path d="M29.5 29 27 11.5q5-2 10 0L34.5 29 32 32Z" transform="rotate(288 32 32)"/>
+  </g>
+  <circle cx="32" cy="32" r="8" fill="#aeb7c1" stroke="#f4f6f8" stroke-width="2"/>
+  <circle cx="32" cy="32" r="3" fill="#3c4652"/>
+</svg>
